@@ -1,0 +1,54 @@
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.17 (64bit) on [Mon Feb  4 03:36:52 2019] ***
+compiled with version: 7.3.0 on 02 July 2018 12:55:37
+os: Linux-4.15.0-20-generic #21-Ubuntu SMP Tue Apr 24 06:16:15 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/git/raspberry/tango_with_django_project
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/git/raspberry/tango_with_django_project
+your processes number limit is 1904
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 176.122.189.199:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr  1 2018, 05:46:30)  [GCC 7.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55abf802f840
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+ffff
+./tango_with_django_project/settings.py
+kkkk
+/home/git/raspberry/tango_with_django_project/tango_with_django_project/settings.py
+/home/git/raspberry/tango_with_django_project/tango_with_django_project
+ppppp
+/home/git/raspberry/tango_with_django_project
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55abf802f840 pid: 464 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 464)
+spawned uWSGI worker 1 (pid: 466, cores: 1)
+spawned uWSGI worker 2 (pid: 467, cores: 1)
+spawned uWSGI worker 3 (pid: 468, cores: 1)
+spawned uWSGI worker 4 (pid: 469, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+Mon Feb  4 08:37:01 2019 - *** PAUSE (press start to resume, if you do not have a joypad send SIGTSTP) ***
+worker 1 buried after 0 seconds
+worker 2 buried after 0 seconds
+worker 3 buried after 0 seconds
+worker 4 buried after 0 seconds
+goodbye to uWSGI.
